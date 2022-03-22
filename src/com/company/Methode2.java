@@ -9,7 +9,7 @@ public class Methode2 {
          String str = "learning by doing";
 
          getLength(str);
-         getFancy(str);
+         lookingforFancy(str);
 
     }
 
@@ -17,7 +17,7 @@ public class Methode2 {
         int length = str.length();
 
         if (length > 20){
-            System.out.println("Der Saaatz hat " + length +" Buchstaben, also mehr als 20.");
+            System.out.println("Der Satz hat " + length +" Buchstaben, also mehr als 20.");
         } else if (length < 20){
             System.out.println("Der Satz hat " + length +" Buchstaben, also weniger als 20.");
         } else {
@@ -26,7 +26,7 @@ public class Methode2 {
 
     }
 
-    public static void getFancy(String str){
+    public static void lookingforFancy(String str){
 
         System.out.println("Befindet sich ein Teil von fancy im Satz?(" +str.contains("fancy") +")");
 
