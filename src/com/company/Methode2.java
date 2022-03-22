@@ -17,7 +17,7 @@ public class Methode2 {
         int length = str.length();
 
         if (length > 20){
-            System.out.println("Der Satz hat " + length +" Buchstaben, also mehr als 20.");
+            System.out.println("Der Hulahupp hat " + length +" Buchstaben, also mehr als 20.");
         } else if (length < 20){
             System.out.println("Der Satz hat " + length +" Buchstaben, also weniger als 20.");
         } else {
