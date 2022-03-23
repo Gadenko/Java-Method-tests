@@ -9,6 +9,7 @@ public class Methode2 {
          getLength(str);
          lookingforFancy(str);
          sayHello();
+         sayGoodbye();
 
     }
 
@@ -35,5 +36,9 @@ public class Methode2 {
 
         System.out.println("I just want say hello!!!!");
 
+    }
+
+    public static void sayGoodbye(){
+        System.out.println("I just wanna say goodbye!!!!");
     }
 }
