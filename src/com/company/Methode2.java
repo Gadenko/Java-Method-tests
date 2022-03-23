@@ -5,11 +5,13 @@ public class Methode2 {
      public static void main(String[] args) {
 
          String str = "learning by doing";
+         int x = 32, y = 39548;
 
          getLength(str);
          lookingforFancy(str);
          sayHello();
          sayGoodbye();
+         givemeSum(x, y);
 
     }
 
@@ -41,4 +43,10 @@ public class Methode2 {
     public static void sayGoodbye(){
         System.out.println("I just wanna say goodbye!!!!");
     }
+
+
+    public static int givemeSum (int x, int y){
+         return x + y;
+    }
+
 }
