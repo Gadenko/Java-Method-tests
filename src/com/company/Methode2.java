@@ -2,14 +2,13 @@ package com.company;
 
 public class Methode2 {
 
-
-
      public static void main(String[] args) {
 
          String str = "learning by doing";
 
          getLength(str);
          lookingforFancy(str);
+         sayHello();
 
     }
 
@@ -29,6 +28,12 @@ public class Methode2 {
     public static void lookingforFancy(String str){
 
         System.out.println("Befindet sich ein Teil von fancy im Satz?(" +str.contains("fancy") +")");
+
+    }
+
+    public static void sayHello(){
+
+        System.out.println("I just want say hello!!!!");
 
     }
 }
